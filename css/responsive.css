@@ -7,18 +7,24 @@
         display: none;
     }
     /* .checkbtn { */
-        display: block;
-        font-size: 5rem;
-        position: absolute;
-        top: 30px;
-        left: 40px;
-        }
+        /* display: block; */
+        /* font-size: 5rem; */
+        /* position: absolute; */
+        /* top: 30px; */
+        /* left: 40px; */
+        /* } */
        
-}
-@media (min-width: 786px){
-   
-}
-@media (min-width: 576px){
+ @media screen and (min-width: 769px) {
+        /* .dropend:hover > .dropdown-menu {
+          position: absolute;
+          top: 0;
+          left: 100%;
+        }
+        .dropend .dropdown-toggle {
+          margin-left: 0.5em;
+        } */
+      }
+      
 
 }
 @media(min-width: 344px){
