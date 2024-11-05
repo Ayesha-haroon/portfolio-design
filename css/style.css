@@ -128,8 +128,8 @@ root {
 
 }
 .nav-button{
-  margin-left: 1rem;
-}
+  margin-right: 1rem;
+ }
 
 
 .nav-button .btn-hire {
@@ -159,6 +159,7 @@ root {
 .btn-hire:focus {
   box-shadow: none;
 }
+
 
 #mian-nav .dropdown-menu {
   padding: 0;
@@ -236,4 +237,9 @@ root {
 #mian-nav .dropdown-menu .dropdown:focus-within ~ .dropdown > .dropdown-menu {
   display: none;
 }
+
+
+
+
+
 
