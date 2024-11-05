@@ -9,6 +9,8 @@
     margin: 0;
     gap:0;
     text-transform: uppercase;
+    height: 100vh;
+    padding-top: 2rem;
     
   }
    .navbar{
@@ -37,7 +39,7 @@ button:focus{
   margin: 6px 0;
   transition: 0.4s;
   
-;
+
 }
 
 .change .bar1 {
@@ -59,9 +61,38 @@ button:focus{
   margin-left: 12px;
 
 }
+#mian-nav .nav-link{
+  display: flex;
+  justify-content: space-between;
+}
+#mian-nav .nav-link .icon {
+  margin-right: 1rem;
+}
 
-
-
+.dropdown{
+  background-color: #2A1454;
+  color: #fff;
+  font-size: 22px;
+  box-shadow: none;
+}
+.dropdown-menu a:hover{
+  color: #fff;
+}
+#mian-nav .nav-item .dropdown-menu{
+  background-color: #2A1454;
+}
+#mian-nav .dropdown-menu .dropdown:focus-within > .dropdown-menu {
+  top:0;
+  left:0;
+  width: 100%;
+  
+}
+#mian-nav .nav-link:hover::after{
+  width: 0;
+}
+  .dropdown-menu .nav-item .nav-link {
+  box-shadow: none;
+}
 
 
 

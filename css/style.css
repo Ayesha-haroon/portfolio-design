@@ -175,6 +175,7 @@ root {
   box-shadow: 0 16px 40px rgba(135, 80, 247, 0.1);
 }
 
+
 #mian-nav .dropdown-menu li a {
   padding: 18px 25px;
   color: #fff;
@@ -228,6 +229,7 @@ root {
   position: absolute;
   top: 0;
   left: 100%; /* Adjust positioning for nested menu */
+  
 }
 
 /* Close sibling dropdowns when hovering over a new dropdown */
