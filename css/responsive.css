@@ -136,17 +136,13 @@
  
 
 }
-@media(max-width:590px) {
-  .nav-button {
-    margin-left: 11rem;
-    
-    }
 
-}
+
+
 
 @media(max-width:344px) {
   .nav-button .btn-hire {
-    margin-left: 6rem;
+  
   }
   
 
